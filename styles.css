@@ -1,0 +1,42 @@
+
+body{
+    background-image: linear-gradient(to right, cyan, orange, orange, cyan);
+}
+
+
+
+.custom-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    padding: 15px;
+}
+
+.custom-card-header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.custom-card-body {
+    margin-bottom: 10px;
+}
+
+.btn-custom {
+    background-color: #ff9800;
+    border-color: #ff9800;
+    color: white;
+}
+.carousel-item img {
+    max-height: 200px; /* Adjust this value as needed */
+    width: auto;
+    object-fit: cover; /* This ensures the images cover the area without stretching */
+}
+
+
+.text-visability{
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000
+}
